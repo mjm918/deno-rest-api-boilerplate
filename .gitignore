@@ -1,0 +1,6 @@
+./environments/.env.development
+./environments/.env.production
+
+
+# Project exclude paths
+/log/

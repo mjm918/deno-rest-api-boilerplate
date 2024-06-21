@@ -1,0 +1,33 @@
+{
+  "imports": {
+    "oak/": "https://deno.land/x/oak@v16.0.0/",
+    "oak_rate_limit/": "https://deno.land/x/oak_rate_limit/",
+    "djwt/": "https://deno.land/x/djwt@v3.0.2/",
+    "denon/": "https://deno.land/x/denon@2.5.0/",
+    "bcrypt/": "https://deno.land/x/bcrypt@v0.4.1/",
+    "dotenv/": "https://deno.land/std@0.224.0/dotenv/",
+    "log/": "https://deno.land/x/logger@v1.1.6/",
+    "cors/": "https://deno.land/x/cors@v1.2.2/",
+    "oak_decorators/": "https://deno.land/x/oak_decorators@v0.1.5/",
+    "socket_io/": "https://deno.land/x/socket_io@0.2.0/",
+    "socket_io_decorators": "npm:socket-controllers",
+    "di": "npm:typedi",
+    "native_http/": "https://deno.land/std@0.220.1/http/",
+    "native_log/": "https://deno.land/std@0.166.0/log/",
+    "yup": "npm:yup@^1.2.0",
+
+
+    "@qaswa/deps": "./deps.ts",
+    "@qaswa/configs": "./configs/mod.ts",
+    "@qaswa/controllers": "./controllers/mod.ts",
+    "@qaswa/interfaces": "./interfaces/mod.ts",
+    "@qaswa/middlewares": "./middlewares/mod.ts",
+    "@qaswa/models": "./models/mod.ts",
+    "@qaswa/helpers": "./helpers/mod.ts",
+    "@qaswa/repositories": "./repositories/mod.ts",
+    "@qaswa/services": "./services/mod.ts",
+    "@qaswa/types": "./types/mod.ts",
+    "@qaswa/modules": "./modules/mod.ts",
+    "@qaswa/validations": "./validations/mod.ts"
+  }
+}
